@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+
+body {
+    background: #ADA9B7;
+    color: black;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+a { 
+  text-decoration: none;
+}
+/* CSS Code */
+.profile-img { 
+  width: 10%; border-radius: 50%
+}
+
+.btn {
+  display:block;
+  color:black;
+  padding:20px;
+  background:white;
+  margin:16px;
+  box-shadow: 5px 10px #888888;
+}
+
+.btn:hover {
+  background: rgba(59, 130, 246, .5);
+  color: white;
+  transition: 0.3s;
+  
+}
